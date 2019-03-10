@@ -6,7 +6,7 @@
  *
  *```
  *module "alarm" {
- *  source = "git@github.com:rackspace-infrastructure-automation/aws-terraform-cloudwatch_alarm//?ref=v0.0.1"
+ *  source = "git::https://github.com/scafeman/aws-terraform-cloudwatch_alarm//?ref=v0.0.1"
  *
  *  alarm_description        = "High CPU usage."
  *  alarm_name               = "MyCloudWatchAlarm"
